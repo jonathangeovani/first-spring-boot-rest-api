@@ -11,5 +11,7 @@ public class Client {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @Column(nullable = false)
+    private String email;
     private String name;
+    private int age;
 }
