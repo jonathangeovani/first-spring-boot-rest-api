@@ -1,4 +1,4 @@
-# Client API - Spring Boot
+# Client Management API - Spring Boot RESTful API
 
 ## Overview
 This project is a simple REST API for managing clients, built using Java and Spring Boot. It provides basic CRUD operations (Create, Read, Update and Delete).
