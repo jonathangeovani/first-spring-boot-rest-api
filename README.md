@@ -44,8 +44,8 @@ Use your preferred API testing tool (Postman, cURL, etc) to interact with the en
 | ------ | --- | ----------- |
 | GET    | /clients | Get a list of all registered clients. |
 | POST   | /clients | Add one or more clients. [See example](#add-new-clients) |
-| PUT    | /clients/update/{id} | Update an existing client. [See example](#update-client) |
-| DELETE | /clients/delete/{id} | Delete an existing client |
+| PUT    | /clients/update?id={id} | Update an existing client. [See example](#update-client) |
+| DELETE | /clients/delete?id={id} | Delete an existing client |
 
 ## Examples
 Valid JSON request body examples:
